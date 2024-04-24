@@ -1,14 +1,7 @@
-import { useNavigate,Link } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import Logo from "../../assets/pic/logo.png"
 
 export default function Navbar() {
-  const Navigate = useNavigate()
-  const HandleAbout = ()=>{
-    Navigate('about')
-  }
-  const HandleHome = ()=>{
-    Navigate('/')
-  }
   return (
     <div className="navbar text-default-content">
       <div className="navbar-start">
@@ -17,11 +10,11 @@ export default function Navbar() {
             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
           </div>
           <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-          <Link to="/"><li><a>หน้าแรก</a></li></Link>
+            <Link to="/"><li><a>หน้าแรก</a></li></Link>
             <li><a>อัตราค่าบริการ</a></li>
             <li><a>เช่ารถ</a></li>
             <li><a>นโยบาย</a></li>
-            <li onClick={HandleAbout}><a>เกี่ยวกับเรา</a></li>
+            <Link to="/about"><li><a>เกี่ยวกับเรา</a></li></Link>
             <li>
               <a>ติดต่อเรา</a>
               <ul className="p-2">
@@ -38,11 +31,11 @@ export default function Navbar() {
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
-          <li onClick={HandleHome}><a>หน้าแรก</a></li>
+          <Link to="/"><li><a>หน้าแรก</a></li></Link>
           <li><a>อัตราค่าบริการ</a></li>
           <li><a>เช่ารถ</a></li>
           <li><a>นโยบาย</a></li>
-          <li onClick={HandleAbout}><a>เกี่ยวกับเรา</a></li>
+          <Link to="/about"><li><a>เกี่ยวกับเรา</a></li></Link>
           <li>
             <details>
               <summary>ติดต่อเรา</summary>
