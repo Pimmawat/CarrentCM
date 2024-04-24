@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import Logo from "../../assets/pic/brand.png"
 
+import "./index.css";
+
 export default function Navbar() {
   return (
     <div className="navbar text-default-content">
@@ -27,7 +29,7 @@ export default function Navbar() {
           </ul>
         </div>
         <div>
-          <Link to="/"><img src={Logo} alt="Logo" /></Link>
+          <Link to="/"><img src={Logo} alt="Logo" className="brand"/></Link>
         </div>
       </div>
       <div className="navbar-center hidden lg:flex">
