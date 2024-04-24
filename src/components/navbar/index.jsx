@@ -1,5 +1,5 @@
-import { useNavigate, Link } from "react-router-dom";
-import Logo from "../../assets/pic/logo.png"
+import { Link } from "react-router-dom";
+import Logo from "../../assets/pic/brand.png"
 
 export default function Navbar() {
   return (
@@ -19,8 +19,9 @@ export default function Navbar() {
               <a>ติดต่อเรา</a>
               <ul className="p-2">
                 <li><a href="https://www.facebook.com/phufeaw/" target="_blank">Facebook</a></li>
+                <li><a href="https://www.instagram.com/_thephuuu/" target="_blank">Instagram</a></li>
                 <li><a href="https://www.tiktok.com/@phufeaw" target="_blank">Tiktok</a></li>
-                <li><a href="" target="_blank">Line</a></li>
+                <li><a href="https://line.me/ti/p/bRkJZaMQn7" target="_blank">Line</a></li>
               </ul>
             </li>
           </ul>
@@ -41,15 +42,13 @@ export default function Navbar() {
               <summary>ติดต่อเรา</summary>
               <ul className="p-2">
                 <li><a href="https://www.facebook.com/phufeaw/" target="_blank">Facebook</a></li>
+                <li><a href="https://www.instagram.com/_thephuuu/" target="_blank">Instagram</a></li>
                 <li><a href="https://www.tiktok.com/@phufeaw" target="_blank">Tiktok</a></li>
-                <li><a href="" target="_blank">Line</a></li>
+                <li><a href="https://line.me/ti/p/bRkJZaMQn7" target="_blank">Line</a></li>
               </ul>
             </details>
           </li>
         </ul>
-      </div>
-      <div className="navbar-end">
-        <a className="btn btn-outline btn-success text-white" href="tel://0931713860"><svg aria-hidden="true" focusable="false" class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em" height="1em"><path d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z" /></svg>โทรเลย</a>
       </div>
     </div>
   );
