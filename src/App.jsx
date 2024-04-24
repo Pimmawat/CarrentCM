@@ -1,15 +1,17 @@
-import Navbar from "./components/navbar";
-import Footer from "./components/footer";
-import Slideimage from "./components/body"
-import Button from "./components/body/button";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Main from "./components/layout/MainPage";
+import AboutPage from "./components/layout/aboutPage";
+import Error404Page from "./components/layout/error404Page";
 
 function App() {
   return (
-    <>
-      <Navbar></Navbar>
-      <Slideimage></Slideimage>
-      <Footer></Footer>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Main/>}></Route>
+        <Route path="/about" element={<AboutPage/>}></Route>
+        <Route path="/*" element={<Error404Page/>}></Route>
+      </Routes>
+    </BrowserRouter>
   )
 }
 
