@@ -10,13 +10,13 @@
 
 vite.js ,DaisyUI
 
-#### ราคาโปรแกรม
+#### ราคาโปรแกรม💸
 
-8,900 บาท
+💸8,900 บาท
 
 
 ## 🚀 About Me
-I'm study Computer Engineering at RMUTL. Chiangmai
+👷 I'm study Computer Engineering at RMUTL. Chiangmai
 
 
 ![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
