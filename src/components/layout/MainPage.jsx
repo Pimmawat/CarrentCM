@@ -9,7 +9,6 @@ function Main() {
         <>
             <Navbar></Navbar>
             <HeadBar></HeadBar>
-            <AboutPage></AboutPage>
             <Footer></Footer>
         </>
     )
