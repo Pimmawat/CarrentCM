@@ -1,6 +1,4 @@
 import React from 'react'
-import Navbar from '../navbar'
-import { Link, NavLink } from 'react-router-dom'
 
 export default function AboutPage() {
     return (
@@ -10,6 +8,11 @@ export default function AboutPage() {
                     <div className="hero-overlay bg-opacity-60"></div>
                     <div className="hero-content text-center text-neutral-content">
                         <div className="max-w-xl">
+                            <div className='avatar'>
+                                <div className='w-24 rounded-xl'>
+                                    <a href="/"><img src="https://dynamic.brandcrowd.com/asset/logo/937e0eec-eebf-4294-9029-41619d6c3786/logo-search-grid-1x?logoTemplateVersion=1&v=638369310055500000" alt="brand" /></a>
+                                </div>
+                            </div>
                             <a href="/"><h1 className="mb-5 text-5xl font-bold">CarrentCM</h1></a>
                             <h2 className='mb-5 text-4xl font-bold'>Contact</h2>
                             <div className="max-w-xl">

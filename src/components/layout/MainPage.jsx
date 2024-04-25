@@ -1,8 +1,9 @@
 import React from 'react'
-import Navbar from '../navbar'
+import Navbar from '../navbar/navbar'
 import HeadBar from '../body'
 import Footer from '../footer'
 import AboutPage from './aboutPage'
+
 function Main() {
     return (
         <>
