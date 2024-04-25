@@ -29,7 +29,7 @@ export default function Navbar() {
           </ul>
         </div>
         <div>
-          <Link to="/"><img src={Logo} alt="Logo" className="brand"/></Link>
+          <Link to="/"><img src={Logo} alt="Logo" className="brand" /></Link>
         </div>
       </div>
       <div className="navbar-center hidden lg:flex">
