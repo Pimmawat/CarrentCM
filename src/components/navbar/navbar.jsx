@@ -13,12 +13,12 @@ export default function Navbar() {
           </div>
           <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
             <Link to="/"><li><a>หน้าแรก</a></li></Link>
-            <li><a>อัตราค่าบริการ</a></li>
-            <li><a>เช่ารถ</a></li>
-            <li><a>นโยบาย</a></li>
+            <Link to="/"><li><a>อัตราค่าบริการ</a></li></Link>
+            <Link to="/"><li><a>เช่ารถ</a></li></Link>
+            <Link to="/"><li><a>นโยบาย</a></li></Link>
             <Link to="/about"><li><a>เกี่ยวกับเรา</a></li></Link>
             <li>
-              <a>ติดต่อเรา</a>
+              ติดต่อเรา
               <ul className="p-2">
                 <li><a href="https://www.facebook.com/phufeaw/" target="_blank">Facebook</a></li>
                 <li><a href="https://www.instagram.com/_thephuuu/" target="_blank">Instagram</a></li>
@@ -35,9 +35,9 @@ export default function Navbar() {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <Link to="/"><li><a>หน้าแรก</a></li></Link>
-          <li><a>อัตราค่าบริการ</a></li>
-          <li><a>เช่ารถ</a></li>
-          <li><a>นโยบาย</a></li>
+          <Link to="/"><li><a>อัตราค่าบริการ</a></li></Link>
+          <Link to="/"><li><a>เช่ารถ</a></li></Link>
+          <Link to="/"><li><a>นโยบาย</a></li></Link>
           <Link to="/about"><li><a>เกี่ยวกับเรา</a></li></Link>
           <li>
             <details>
