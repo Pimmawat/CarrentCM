@@ -32,20 +32,6 @@ export default function HeadBar() {
                                     <br />รถสภาพดี สะอาด ขับได้ทั่วประเทศไทย
 
                                 </p>
-                                <div>
-                                    <div>
-                                        <button
-                                            onClick={() => Swal.fire({
-                                                title: 'กดหาพ่อมึงหรอ!',
-                                                text: 'หน้าโง่555555555555555',
-                                                icon: 'error',
-                                                confirmButtonText: 'ฉันโง่!',
-                                            })}
-                                        >
-                                            กดปุ่มนี้สิ
-                                        </button>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -87,6 +73,16 @@ export default function HeadBar() {
                         We get insulted by others, lose trust for those others. We get back
                         stabbed by friends. It becomes harder for us to give others a hand.
                     </p>
+                    <button
+                        onClick={() => Swal.fire({
+                            title: 'Something is wrong!',
+                            text: 'Please try agian',
+                            icon: 'error',
+                            confirmButtonText: 'Close',
+                        })}
+                    >
+                        กดปุ่มนี้สิ
+                    </button>
                     <a className="text-indigo-500 flex items-center hover:text-indigo-600" href="/">
                         More about us icon
                         <svg
